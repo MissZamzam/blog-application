@@ -1,20 +1,8 @@
-import { useState, useEffect } from "react";
 import ArticleList from "./ArticleList";
+import useFetch from "./useFetch";
 
 function Home () {
-
-    const [articles, setArticles] = useState(null)
-
-    
-    useEffect(() => {
-        fetch('http://localhost:3000/articles')
-        .then(response => {
-            response.json()
-        })
-        .then(data => {
-            setArticles(data)
-        })
-    })
+const {data : articles} = useFetch('')
 
     return (
         <div className="home">
