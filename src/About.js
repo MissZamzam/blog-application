@@ -1,6 +1,19 @@
-
-function About ()  {
-    return 
+function About () {
+    return (
+        <>
+        <div className="about-us">
+            
+            <h1>About Us!</h1>
+        <br></br>
+            <p>S<i>poken word, poetry, prose, and creative writing are all ways to express yourself and what you’re experiencing. Writing down and performing your thoughts can serve to transform the intangibility of your emotions and experiences into something more. They serve as a way for you to make your feelings tangible and real.</i></p>
+        </div>
+        
+        <figure>
+            <p><strong>"Writing is the one place where the world makes more sense to me. It’s where I feel the most turmoil, but also the most peace. It’s the one place I look my life straight in the eye.”</strong></p>
+        <figcaption>-Andrea Gibson</figcaption>
+        </figure>
+        </>
+    )
 }
  
 export default About;
