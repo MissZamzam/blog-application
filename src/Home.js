@@ -11,7 +11,12 @@ function Home () {
     ])
     return (
         <div className="home">
-            
+            {articles.map((article) =>(
+                <div className="article-preview" key={article.id}>
+                    <h2>{article.title}</h2>
+                    <p>{article.author}</p>
+                    </div>
+            ))}
         </div>
     )
 }
