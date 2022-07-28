@@ -1,12 +1,116 @@
 
+@import url(https://fonts.googleapis.com/css?family=Trirong);
 
+*{
+  margin: 0;
+  font-family: " Trirong ";
+  color: #333;
+}
 
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items:  center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: yellow;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: rgb(86, 139, 15);
+  font-style: italic;
+}
+.navbar h1 p{
+  color: rgb(1, 26, 1);
+  text-align: center;
+  font-style: normal;
+}
+.navbar .links {
+  margin-left: auto;
+  
+}
+.navbar  a{
+margin-left: 10px;
+text-decoration: none;
+padding:  6px;
+}
+.navbar a:hover {
+  color: yellow;
+  background-color: yellowgreen;
+  
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: yellowgreen;
+  
+}
+.article-preview {
+  padding:  10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.article-preview:hover{
+  box-shadow: 10px 3px 5px rgb(230, 219, 219);
+}
+.article-preview h2 {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 8px;
+}
+.contacts{
+  background-color: rgb(127, 212, 47);
+  font-size: larger;
+  text-align: center;
+  box-shadow: 0 4px 21px -12px coral;
+  height: 500px;
+  margin: 20px;
+}
+.about-us{
+  text-align: center;
+  height: 300px;
+}
+.create{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.create label{
+  text-align: center;
+  font-size: larger;
+  
+}
+.create h2{
+  font-size: 20px;
+  color: rgb(94, 71, 38);
+  margin-bottom: 30px;
+}
+.create input, .create select {
+  width: 400px;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.textarea{
+  height: 100px;
+}
+.button{
+  margin: 60px;
+  border-radius: 30px;
+  padding: 20px 60px;
+  color: white;
+  font-size: 20px;
+  background-color:green ;
+  border: solid rgb(71, 167, 71);
 
-
-
-
-
-
+}
+.delete{
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
 
 
 .article-preview{

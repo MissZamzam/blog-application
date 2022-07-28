@@ -3,12 +3,12 @@ function Navbar () {
     return (
 
         <div className="navbar">
-            <h1>The WEEKLY Blog </h1>
+            <h1>The WEEKLY <p>Blog</p></h1>
         <div className="container">
-          <Link to="/">Home🏠</Link>
-          <Link to="/create">New Blog✍️ </Link>
+          <Link to="/">Home</Link>
+          <Link to="/create">New Blog </Link>
           <Link to="about">About</Link>
-          <Link to="contact">Contact 📱</Link>
+          <Link to="contact">Contact </Link>
         </div>
         </div>
 
