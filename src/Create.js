@@ -10,15 +10,15 @@ const Create = () => {
         e.preventDefault()
         const article = { title, body, author };
 
-        fetch('http://localhost:3000/articles', {
-        method: 'POST',
-        headers: {"Content-Type" : "application/json"},
-        body: JSON.stringify(article)
-        }).then
-        (() => {
-        })
+    //     fetch('http://localhost:3000/articles', {
+    //     method: 'POST',
+    //     headers: {"Content-Type" : "application/json"},
+    //     body: JSON.stringify(article)
+    //     }).then
+    //     (() => {
+    //     })
 
-    }
+    // }
     
     return <div className="create">
         <h2>Create a New article</h2>
