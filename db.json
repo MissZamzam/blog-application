@@ -1,0 +1,29 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "title": "Second booster shot?",
+        "body": "The Centers for Disease Control and Prevention began recommending in March 2022 that people over 50 years old get a second mRNA booster shot—Pfizer or Moderna—if their previous booster was given at least four months earlier. The goal was to provide additional protection because the older people get, the faster their antibodies levels tend to decline, increasing their likelihood of severe disease and hospitalization with COVID-19 even after vaccination.",
+        "author": "Tara Haelle"
+      },
+      {
+        "id": 2,
+        "title": "Fashion & Enviroment",
+        "body": "The drop in garment prices over the last 20 years has allowed us to buy more and more clothes. We now have 5 times more clothes than our grandparents had. It felt great until we found out what was hiding behind this trend In reality, this continuous accumulation of cheap garments is only possible because of a constant reduction of production costs. This, in turn, has serious consequences on our health, our planet, and on garment workers lives.",
+        "author": "Simpson Jerry"
+      },
+      {
+        "id": 3,
+        "title": "I found my favorite Café in Barcelona – thanks to a book!",
+        "body": "I dislike entering book shops. Every time I walk into a book shop, I will end up buying one.I entered an international bookshop in Eixample, Barcelona, while looking for some cool things to do in Barcelona. And as expected, a book named „The dead alleys of Barcelona“ got my attention, a crime novel. Long story shot: I bought it, went home, and started reading.In this book, the author Stefanie Kremser talks about a special part of El Born, downtown Barcelona. She describes this magical square, this narrow street the main character lived in.I didn’t know this exact street, and I was curious. I went downtown, wandered around the square and saw this café with the few tables on the terrace. Until today, 7 years later, it is still my favorite café in Barcelona – thanks to this book!",
+        "author": "Matt"
+      },
+      {
+        "id": 4,
+        "title": "Fast food:Its nutrition and impacts",
+        "body": "Fast food tends to be high in salt, sugar, saturated fats, trans fats, calories, and processed preservatives and ingredients. A wealth of well-conducted research has proven the negative health effects of consuming too much of these food components.In the short term, fast food impacts blood sugar and blood pressure, increases inflammation, and may mean an individual does not eat enough necessary nutrients. In the long term, a diet rich in fast food could lead to issues with digestion, immunity, inflammation, heart health, obesity, and more.",
+        "author": "Timothy Huzar"
+      }
+   
+    ]
+  }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ArticleList from "./ArticleList";
 
 function Home () {
@@ -10,9 +10,19 @@ function Home () {
         {title: 'Favorite cookbook', body: 'abhk...', author: 'Jerry Simon', id:4}
 
     ])
+
+    function handleDelete(id){
+        const newArticles = articles.filter(article => article.id !== id)
+        setArticles(newArticles)
+    }
+    
+    useEffect(() => {
+        
+    })
+
     return (
         <div className="home">
-            <ArticleList articles={articles} title="Articles " />
+            <ArticleList articles={articles} title="Articles" handleDelete={handleDelete} />
         </div>
     )
 }
