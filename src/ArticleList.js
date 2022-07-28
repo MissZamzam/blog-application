@@ -1,4 +1,4 @@
-function ArticleList  ({articles, title, handleDelete}) {
+function ArticleList  ({articles, title}) {
 
   
 
@@ -9,7 +9,6 @@ function ArticleList  ({articles, title, handleDelete}) {
                 <div className="article-preview" key={article.id}>
                     <h2>{article.title}</h2>
                     <p>By {article.author}</p>
-                    <button onClick={() => handleDelete(article.id)} className="delete">Delete</button>
                     </div>
             ))}
         </div>
