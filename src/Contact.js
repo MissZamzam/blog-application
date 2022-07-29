@@ -1,21 +1,34 @@
 const Contact = () => {
     return (
         <div className="contacts">
-            {/* <h1>Contacts</h1> */}
-            <br></br>
-            <br></br>
-            <br></br>
-            <p><strong>The WEEKLY Blog</strong></p>
-            <br></br>
-            <p>P.O. Box 283 8562 Family Rd</p>
-            <p>Old Town 270380</p>
-            <p>Email:@abz@gmail.com</p>
-            <p>+254 727802689</p>
-            <br></br><br></br><br></br>
-            <p>P.O. Box 283 8562 EXpress Rd</p>
-            <p>Old Town 270380</p>
-            <p>Email:@abz@gmail.com</p>
-            <p>020 727802689</p>
+           <h2 className="two">Contact</h2>
+           <div className="info">
+            <div className="address">
+                <div className="sub-div">
+                    <div className="text">
+                        <h4 className="four">Address</h4>
+                        <p>First Floor, Forest RD,<br />First Lane100-097.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="phone">
+                <div className="sub-div">
+                    <div className="text">
+                        <h4 className="four">Phone</h4>
+                        <p>07123445678</p>
+                        <p>0205267728</p>
+                    </div>
+                </div>
+            </div>
+            <div className="email">
+                <div className="sub-div">
+                    <div className="text">
+                        <h4 className="four">Email</h4>
+                        <p>abz@theweeklyblog.com</p>
+                    </div>
+                </div>
+            </div>
+           </div>
         </div>
     )
    

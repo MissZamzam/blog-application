@@ -1,13 +1,16 @@
+
 import ArticleList from "./ArticleList";
 import useFetch from "./useFetch";
 
 function Home () {
-const {data : articles} = useFetch('')
+    const { error, isPending, data: articles } = useFetch('http://localhost:3000/articles')
 
     return (
         <div className="home">
-          { articles &&  <ArticleList articles={articles} title="Articles" /> }
-        </div>
+        { error && <div>{ error }</div> }
+        { isPending && <div>Loading...</div> }
+        { articles && <ArticleList articles={articles} /> }
+      </div>
     )
 }
  

@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 
-function ArticleList  ({articles, title}) {
+function ArticleList ({articles}) {
     return (  
         <div className="articleList">
-            <h1>{title}</h1>
             {articles.map((article) =>(
                 <div className="article-preview" key={article.id}>
                     <Link to={`/articles/${article.id}`}>

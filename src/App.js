@@ -5,7 +5,7 @@ import Contact from './Contact';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Create from './Create';
 import ArticalRoutes from './ArticleRoutes';
-
+import Error from './Error'
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/articles/:id" element={<ArticalRoutes />} />
-
+            <Route exact path="*" element={<Error />} />
       </Routes>
       </div>
       </Router>

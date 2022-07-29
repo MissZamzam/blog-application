@@ -1,10 +1,11 @@
 
-@import url(https://fonts.googleapis.com/css?family=Trirong);
 
 *{
   margin: 0;
-  font-family: " Trirong ";
+  max-width: 1500px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
+  
 }
 
 .navbar {
@@ -13,17 +14,25 @@
   align-items:  center;
   max-width: 600px;
   margin: 0 auto;
-  background-color: yellow;
+  background-image: linear-gradient(315deg, #fcb36e 0%, #cee2db 74%);
+
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: rgb(86, 139, 15);
-  font-style: italic;
+  color: rgb(221, 120, 25);
+  text-shadow: 0px 2px rgb(60, 61, 78);
+  background-color: #1d1918;
+  font-style: oblique;
+  font-size: x-large;
+  border-radius: 10px;
+  padding: 15px;
 }
 .navbar h1 p{
-  color: rgb(1, 26, 1);
+  color: rgba(76, 153, 13, 0.856);
   text-align: center;
   font-style: normal;
+  margin: 15px;
+  
 }
 .navbar .links {
   margin-left: auto;
@@ -35,15 +44,23 @@ text-decoration: none;
 padding:  6px;
 }
 .navbar a:hover {
-  color: yellow;
-  background-color: yellowgreen;
-  
+  color: orange;
+background-color: rgb(66, 49, 39);  
+padding: 5px 10px;
+border: 2px solid #c0c75a;
+font-size: 30px;
+font-weight: 400;
+border-radius: 5px;
+box-shadow: 0px 0px 40px 2px #9b5470;
+
+
 }
 .container {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  background: yellowgreen;
+  background-image: linear-gradient(315deg, #fcb36e 0%, #cee2db 74%);
+
   
 }
 .article-preview {
@@ -52,7 +69,7 @@ padding:  6px;
   border-bottom: 1px solid #fafafa;
 }
 .article-preview:hover{
-  box-shadow: 10px 3px 5px rgb(230, 219, 219);
+  box-shadow: 10px 25px 15px rgb(41, 39, 38);
 }
 .article-preview h2 {
   font-size: 20px;
@@ -60,7 +77,6 @@ padding:  6px;
   margin-bottom: 8px;
 }
 .contacts{
-  background-color: rgb(127, 212, 47);
   font-size: larger;
   text-align: center;
   box-shadow: 0 4px 21px -12px coral;
@@ -96,23 +112,104 @@ padding:  6px;
   height: 100px;
 }
 .button{
-  margin: 60px;
+  margin: 40px;
   border-radius: 30px;
-  padding: 20px 60px;
-  color: white;
+  padding: 10px 100px;
+  color: rgb(209, 188, 188);
   font-size: 20px;
   background-color:green ;
-  border: solid rgb(71, 167, 71);
+  border: 1px solid rgb(71, 167, 71);
 
 }
-.delete{
-  padding: 10px;
-  margin: 10px;
-  width: 100px;
-  border-radius: 10px;
+.button:hover{
+color: rgb(241, 234, 223);
+background-color: rgb(177, 82, 27);  
+border: 2px solid #c7b35a;
+font-size: 30px;
+font-weight: 400;
+border-radius: 50px;
+box-shadow: 0px 0px 40px 2px #9b7a54;
 }
-
 
 .article-preview{
   text-decoration: none;
+}
+
+.contacts{
+  margin: 0;
+  padding: 0;
+}
+.info{
+  background-image: linear-gradient(315deg, #eee6df 0%, #af6427 74%);
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.1);
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  margin: 10px;
+  margin-left: 100px;
+}
+.two{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: rgb(90, 87, 61);
+  text-align: center;
+  margin: 1.2rem;
+  text-shadow: 2px 2px 2.5px rgb(32, 28, 30);
+}
+.four{
+  color: white;
+}
+
+.sub-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address{
+  margin-top: 1rem;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone{
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.2rem;
+}
+.email{
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  margin-left: 0.6rem;
+}
+legend{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.paragraph{
+  color: white;
+  background-color: #b86f33;
+  border-radius: 20px;
+  padding: 20px;
+}
+.quote{
+  background-color: #af6427;
+  padding: 15px;
+  margin-top: -55px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.writter{
+  text-align: center;
+  margin-bottom: 10px;
 }
