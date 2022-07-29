@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Create from './Create';
 import ArticalRoutes from './ArticleRoutes';
 import Error from './Error'
+import Resources from './More';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/create" element={<Create />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/more" element={<Resources />} />
             <Route exact path="/articles/:id" element={<ArticalRoutes />} />
             <Route exact path="*" element={<Error />} />
       </Routes>

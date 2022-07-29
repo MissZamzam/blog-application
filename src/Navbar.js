@@ -10,6 +10,7 @@ function Navbar () {
           <Link to="/create">New Blog </Link>
           <Link to="about">About</Link>
           <Link to="contact">Contact </Link>
+          <Link to="/more">Resources</Link>
         </div>
         </div>
 
