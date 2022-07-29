@@ -3,7 +3,7 @@ import ArticleList from "./ArticleList";
 import useFetch from "./useFetch";
 
 function Home () {
-    const { error, isPending, data: articles } = useFetch('http://localhost:3000/articles')
+    const { error, isPending, data: articles } = useFetch('https://my-blog-appl.herokuapp.com/articles')
 
     return (
         <div className="home">

@@ -15,7 +15,7 @@ const Create = () => {
         e.preventDefault()
         const article = { title, body, author };
 
-        fetch('http://localhost:3000/articles', {
+        fetch('https://my-blog-appl.herokuapp.com/articles', {
         method: 'POST',
         headers: {"Content-Type" : "application/json"},
         body: JSON.stringify(article)
