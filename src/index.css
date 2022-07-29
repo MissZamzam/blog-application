@@ -23,7 +23,7 @@
   color: rgb(184, 134, 88);
   text-shadow: 0px 2px rgb(60, 61, 78);
   background-color: #1d1918;
-  font-style: normal;
+  font-style: italic;
   font-size: x-large;
   border-radius: 10px;
   padding: 15px;
@@ -37,6 +37,7 @@
 .navbar h1 p{
   color: rgba(198, 209, 188, 0.856);
   text-align: center;
+  font-size: 50px;
   font-style: normal;
   margin: 15px;
   
@@ -53,13 +54,13 @@ padding:  6px;
 }
 .navbar a:hover {
   color: rgb(48, 39, 22);
-background-color: rgb(221, 200, 188);  
+/* background-color: rgb(221, 200, 188);   */
 padding: 5px 10px;
 border: 2px solid #696b48;
 font-size: 30px;
 /* font-weight: 400; */
 border-radius: 5px;
-box-shadow: 0px 0px 40px 2px #9b5470;
+/* box-shadow: 0px 0px 40px 2px #9b5470; */
 
 
 }
@@ -82,7 +83,7 @@ box-shadow: 0px 0px 40px 2px #9b5470;
 .article-preview h2 {
   font-size: 20px;
   color: green;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 .contacts{
   font-size: larger;
@@ -136,7 +137,7 @@ border: 2px solid #c7b35a;
 font-size: 30px;
 font-weight: 400;
 border-radius: 50px;
-box-shadow: 0px 0px 40px 2px #9b7a54;
+box-shadow: 0px  2px 40px #0f0e0d;
 }
 
 .article-preview{
@@ -225,7 +226,7 @@ legend{
 padding: 40px;
 text-align: center;
 box-shadow: 10px 2px 30px brown;
-height: 500px;
+height: 700px;
 }
 .heading{
   margin-top: 30px;
