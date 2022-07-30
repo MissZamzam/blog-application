@@ -1,5 +1,5 @@
 
-# THE WEEKLY BLOG by Zamzam Hassan
+ THE WEEKLY BLOG by Zamzam Hassan
 
 This reactjs based blog application is a single page application that allows users to write, post and delete articles with ease.
 
