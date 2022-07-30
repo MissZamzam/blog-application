@@ -31,14 +31,18 @@ FEATURES
 
  SETUP
 
+
  FRONTEND SETUP
+
 
 Create a remote repository on github
 
 Run npx create-react-app to create the react project and initialize it.
 
 Create all required components and code
- BACKEND SETUP
+
+
+BACKEND SETUP
 
 Used a json-server to create API
 
@@ -47,13 +51,18 @@ Used a json-server to create API
 Run npm start in the project directory and view the application in the browser
 
 
+
 TECHNOLOGIES USED
+
 
  Git-for version control
  Github for storing project codes
 
+
 LANGUAGES
+
  REACT JS
+
 
 LIVE lINK
 
