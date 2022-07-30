@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-  max-width: 1500px;
+  max-width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   
@@ -54,13 +54,10 @@ padding:  6px;
 }
 .navbar a:hover {
   color: rgb(48, 39, 22);
-/* background-color: rgb(221, 200, 188);   */
 padding: 5px 10px;
 border: 2px solid #696b48;
-font-size: 30px;
-/* font-weight: 400; */
 border-radius: 5px;
-/* box-shadow: 0px 0px 40px 2px #9b5470; */
+box-shadow: 0px 0px 40px 2px #946054;
 
 
 }
@@ -70,7 +67,6 @@ border-radius: 5px;
   padding: 20px;
   background-image: linear-gradient(315deg, #fcb36e 0%, #cee2db 74%);
 
-  
 }
 .article-preview {
   padding:  10px 16px;
@@ -78,7 +74,7 @@ border-radius: 5px;
   border-bottom: 1px solid #fafafa;
 }
 .article-preview:hover{
-  box-shadow: 10px 25px 15px rgb(41, 39, 38);
+  box-shadow: 10px 25px 15px rgb(184, 150, 132);
 }
 .article-preview h2 {
   font-size: 20px;
@@ -88,16 +84,17 @@ border-radius: 5px;
 .contacts{
   font-size: larger;
   text-align: center;
-  box-shadow: 0 4px 21px -12px coral;
+  box-shadow: 0 4px 21px -12px rgb(207, 191, 185);
   height: 500px;
   margin: 20px;
 }
 .about-us{
   text-align: center;
-  height: 300px;
+  height: 700px;
 }
 .create{
   width: 400px;
+  height: 700px;
   margin: auto;
   text-align: center;
 }
@@ -123,17 +120,17 @@ border-radius: 5px;
 .button{
   margin: 40px;
   border-radius: 30px;
-  padding: 10px 100px;
-  color: rgb(209, 188, 188);
+  padding: 10px 80px;
+  color: white;
   font-size: 20px;
   background-color:green ;
-  border: 1px solid rgb(71, 167, 71);
+  border: 3px solid rgb(188, 209, 188);
 
 }
 .button:hover{
 color: rgb(241, 234, 223);
 background-color: rgb(177, 82, 27);  
-border: 2px solid #c7b35a;
+border: 1px solid #eeece6;
 font-size: 30px;
 font-weight: 400;
 border-radius: 50px;
@@ -147,13 +144,14 @@ box-shadow: 0px  2px 40px #0f0e0d;
 .contacts{
   margin: 0;
   padding: 0;
+  height: 800px;
 }
 .info{
   background-image: linear-gradient(315deg, #eee6df 0%, #af6427 74%);
   border: 2px solid white;
   border-radius: 0.5rem;
   box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.1);
-  height: 400px;
+  height: 700px;
   width: 600px;
   align-items: center;
   margin: 10px;
@@ -206,19 +204,33 @@ legend{
 }
 .paragraph{
   color: white;
+  /* margin: 20px; */
+  /* margin-bottom: 20px; */
   background-color: #b86f33;
   border-radius: 20px;
-  padding: 20px;
+  box-shadow: 10px 60px 40px rgb(105, 85, 47);
+  padding: 30px;
 }
+.middle{
+margin: 60px;
+background-color: white;
+padding: 15px;
+/* margin-top: 60px; */
+}
+
 .quote{
   background-color: #af6427;
-  padding: 15px;
-  margin-top: -55px;
-  height: 100px;
-  margin-bottom: 20px;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 10px 60px 40px rgb(15, 12, 7);
+
+  /* height: 100px; */
+  margin-top: 50px;
+  /* margin-bottom: 20px; */
   border-radius: 10px;
 }
 .writter{
+  color: wheat;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -248,7 +260,12 @@ height: 700px;
   margin: 20px;
 }
 .resource a:hover{
-  background-color: rgb(86, 110, 84);
+  background-color: rgb(31, 124, 23);
   padding: 8px;
   color: white;
 }
+.blog-image{
+  margin-bottom: 10px;
+}
+
+

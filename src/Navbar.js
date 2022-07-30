@@ -6,11 +6,13 @@ function Navbar () {
         <div className="navbar">
             <h1>The WEEKLY <p>Blog </p></h1>
         <div className="container">
-          <Link to="/">Home</Link>
-          <Link to="/create">New Blog </Link>
-          <Link to="about">About</Link>
-          <Link to="contact">Contact </Link>
-          <Link to="/more">Resources</Link>
+            <ul>
+          <Link to="/" className='nav-links'>Home</Link>
+          <Link to="/create" className='nav-links'>New Blog </Link>
+          <Link to="about" className='nav-links'>About</Link>
+          <Link to="contact" className='nav-links'>Contact </Link>
+          <Link to="/more" className='resource'>Resources</Link>
+          </ul>
         </div>
         </div>
 
