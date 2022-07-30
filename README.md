@@ -29,7 +29,9 @@ FEATURES
 6. Resources contains links to external articles sorted in different  categories.
 
 
+
  SETUP
+
 
 
  FRONTEND SETUP
@@ -42,7 +44,9 @@ Run npx create-react-app to create the react project and initialize it.
 Create all required components and code
 
 
+
 BACKEND SETUP
+
 
 Used a json-server to create API
 
@@ -52,11 +56,14 @@ Run npm start in the project directory and view the application in the browser
 
 
 
+
 TECHNOLOGIES USED
+
 
 
  Git-for version control
  Github for storing project codes
+
 
 
 LANGUAGES
@@ -64,6 +71,7 @@ LANGUAGES
  REACT JS
 
 
-LIVE lINK
+
+LIVE LINK
 
 
