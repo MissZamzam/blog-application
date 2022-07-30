@@ -26,8 +26,8 @@ const Create = () => {
     }
     
     return <div className="create">
-        <form onSubmit={handleSubmit}>
-            <fieldset>
+        <form onSubmit={handleSubmit} className>
+            <fieldset className="fieldset">
     <legend><strong>create a new article✍🏿 </strong></legend>
             <br></br>
             <label><strong>Title</strong></label>

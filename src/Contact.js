@@ -7,6 +7,8 @@ const Contact = () => {
                         <h4 className="four">Phone</h4>
                         <p>07123445678</p>
                         <p>0205267728</p>
+                        <p>096267728</p>
+
                         <h4 className="four">Email</h4>
                         <p>abz@theweeklyblog.com</p>
                         <p>abz@theweeklyblog.co.ke</p>
