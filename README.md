@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# THE WEEKLY BLOG by Zamzam Hassan
 
-## Available Scripts
+This reactjs based blog application is a single page application that allows users to write, post and delete articles with ease.
 
-In the project directory, you can run:
 
-### `npm start`
+# MY EXPECTATION FOR THE USERS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To write,post and delete articles without having to register.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# DESIGN 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It's a an eye catching user-friendly application
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+FEATURES
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# The nav bar that contains all client side routes of Home, New Blog, About, Contacts and Resources.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## The Home contains or show our articles both existing and the new added by the users.It also contains the delete button incase the user wants to delete an articles.
 
-### `npm run eject`
+### The New Blog  feature is where users add new arrticles to the blog application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### About contains the information about the blog
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### Contact contains addresses and phone numbers
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###### Resources contains links to external articles sorted in different  categories.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+ SETUP
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# FRONTEND SETUP
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a remote repository on github
 
-### Code Splitting
+Run npx create-react-app to create the react project and initialize it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create all required components and code
 
-### Analyzing the Bundle Size
+# BACKEND SETUP
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Used a json-server to create API
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Run npm start in the project directory and view the application in the browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+TECHNOLOGIES USED
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Git-for version control
+# Github for storing project codes
 
-### `npm run build` fails to minify
+LANGUAGES
+# REACT JS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+LIVE lINK
+
+
