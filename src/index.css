@@ -2,7 +2,6 @@
 
 *{
   margin: 0;
-  /* max-width: 100%; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   
@@ -27,9 +26,6 @@
   border-radius: 10px;
   padding: 15px;
 }
-.navbar h1:hover{
-  box-shadow: 10px 15px 10px rgb(211, 88, 27);
-}
 
 .navbar h1 p{
   color: rgba(198, 209, 188, 0.856);
@@ -52,8 +48,8 @@ padding:   6px;
 .navbar a:hover {
 color: rgb(48, 39, 22);
 padding: 5px 10px;
-border: 2px solid #696b48;
-border-radius: 5px;
+/* border: 2px solid #696b48; */
+/* border-radius: 5px; */
 box-shadow: 0px 0px 40px 2px #946054;
 
 
@@ -62,7 +58,7 @@ box-shadow: 0px 0px 40px 2px #946054;
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
-  background-image: linear-gradient(315deg, #fcb36e 0%, #cee2db 74%);
+  background-color: #e9d4c2;
 
 }
 .article-preview {
@@ -166,8 +162,6 @@ legend{
 }
 .paragraph{
   color: white;
-  /* margin: 20px; */
-  /* margin-bottom: 20px; */
   background-color: #b86f33;
   border-radius: 20px;
   box-shadow: 10px 60px 40px rgb(105, 85, 47);
@@ -177,7 +171,6 @@ legend{
 margin: 60px;
 background-color: white;
 padding: 15px;
-/* margin-top: 60px; */
 }
 
 .quote{
@@ -186,9 +179,7 @@ padding: 15px;
   margin: 20px;
   box-shadow: 10px 60px 40px rgb(15, 12, 7);
 
-  /* height: 100px; */
   margin-top: 50px;
-  /* margin-bottom: 20px; */
   border-radius: 10px;
 }
 .writter{
