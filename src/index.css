@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   
@@ -47,7 +47,7 @@
 .navbar  a{
 margin-left: 10px;
 text-decoration: none;
-padding:  6px;
+padding:   6px;
 }
 .navbar a:hover {
 color: rgb(48, 39, 22);
@@ -202,6 +202,7 @@ text-align: center;
 box-shadow: 10px 2px 30px brown;
 height: 700px;
 }
+
 .heading{
   margin-top: 30px;
   margin: 20px;
@@ -228,7 +229,4 @@ height: 700px;
 }
 .blog-image{
   margin-bottom: 10px;
-}
-.form{
-  width: 400px;
 }
