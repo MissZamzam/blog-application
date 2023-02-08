@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { useNavigate} from "react-router-dom";
+// import { NavLink } from "react-router-dom"
+
 
 
 
@@ -54,13 +56,20 @@ const Create = () => {
             placeholder="🙎"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
-            >
-                
+            >    
             </input>
-           <button className="button">Add</button>
+            {/* <NavLink to='/'> */}
+            <button className="button">Submit article</button>
+            {/* </NavLink> */}
+
            </fieldset>
 
         </form>
+
+        <h3>The Weekly Blog</h3>
+        <p className="footer">
+        At The WEEKLY, it’s no secret that we love writing . . . and writers! We particularly love when writers share their insights on writing, revising, and the day-to-day experience of being a writer because it gives us glimpses into how their perspectives shape their work.          </p>
+
     </div>
 }
  

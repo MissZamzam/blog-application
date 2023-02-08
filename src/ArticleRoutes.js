@@ -1,5 +1,6 @@
 import { useNavigate,useParams } from "react-router-dom";
 import useFetch from "./useFetch";
+import { NavLink } from "react-router-dom";
 
 function ArticalRoutes () {
     const {id} = useParams()
@@ -22,7 +23,10 @@ function ArticalRoutes () {
                         <h2>{ article.title }</h2>
                         <p>By { article.author }</p>
                         <div>{ article.body }</div>
-                         <button onClick={handleDelete}>Delete</button>
+                        <NavLink to='/'>
+                        <button onClick={handleDelete}>Delete</button>
+
+                        </NavLink>
                 </art>
                 )}
             </div>
