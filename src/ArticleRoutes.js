@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 function ArticalRoutes () {
     const {id} = useParams()
-    const {data : article, error, isPending} = useFetch('https://my-blog-appl.herokuapp.com/articles/' + id)
+    const {data : article, error, isPending} = useFetch('https://blog-api-production-1310.up.railway.app/articles/' + id)
     const navigate = useNavigate()
 
     function handleDelete(){
-        fetch('https://my-blog-appl.herokuapp.com/articles/' + article.id,{
+        fetch('https://blog-api-production-1310.up.railway.app/articles/' + article.id,{
             method: 'DELETE',
         }).then(() => {
             navigate.push('/');
