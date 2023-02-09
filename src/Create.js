@@ -30,15 +30,15 @@ const Create = () => {
     return <div className="create">
         <form onSubmit={handleSubmit} className>
             <fieldset className="fieldset">
-    <legend><strong>create a new article✍🏿 </strong></legend>
+            <legend><strong>create a new article✍🏿 </strong></legend>
             <br></br>
             <label><strong>Title</strong></label>
             <input
              type="text" 
              placeholder="Title of the article"
-              required 
-               value={title} 
-               onChange={(e) =>setTitle(e.target.value)}/>
+             required 
+             value={title} 
+             onChange={(e) =>setTitle(e.target.value)}/>
             <br></br>
 
             <label><strong>Body</strong></label>
@@ -48,7 +48,7 @@ const Create = () => {
             placeholder="✍️" 
             required 
             value={body}
-             onChange={(e) =>setBody(e.target.value)}/>
+            onChange={(e) =>setBody(e.target.value)}/>
             <br></br>
 
             <label><strong>Author</strong></label>
