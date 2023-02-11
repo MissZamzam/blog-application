@@ -74,4 +74,4 @@ LANGUAGES
 
 LIVE LINK
 
-https://blog-application-phase2.herokuapp.com/
+https://blog-application-production.up.railway.app/
