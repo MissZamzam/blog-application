@@ -8,7 +8,7 @@ function Navbar () {
         <div className="links">
             <ul>
           <Link to="/" className='nav-links'>Home</Link>
-          <Link to="/create" className='nav-links'>New Blog </Link>
+          <Link to="/create" className='nav-links'>Post Article</Link>
           {/* <Link to="about" className='nav-links'>About</Link> */}
           {/* <Link to="/more" className='resource'>Resources</Link> */}
           </ul>
