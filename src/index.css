@@ -17,12 +17,12 @@
   border-bottom: 1px solid #f2f2f2;
   border: 1px green solid;
   margin-top: 20px;
-  background-color: grey;
+  background-color: rgb(51, 158, 144);
   margin-bottom: 20px;
 
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #f1a035;
   font-family: Grechen Fuemen , sans-serif;
   font-weight: 500;
   font-size: 40px;
@@ -35,11 +35,11 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color: white;
+  color: #fff;
   font-weight: 500;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #f1a035;
 }
 .home{
   max-width: 640px;
@@ -47,7 +47,7 @@
   border-bottom: 1px solid #f2f2f2;
   border: 1px green solid;
   /* margin-top: 20px; */
-  background-color: rgb(245, 240, 240);
+  background-color: white;
   margin-bottom: 20px;
 }
 .content {
@@ -71,7 +71,7 @@
 }
 .article-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #b9751c;
   margin-bottom: 8px;
   
 }
@@ -82,7 +82,7 @@
 /* blog details page */
 .article-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #f1a035;
   margin-bottom: 10px;
   max-width: 400px;
   margin: 0 auto;
@@ -90,7 +90,7 @@
 }
 .article-details p {
   font-size: 20px;
-  color: #f1356d;
+  color: #f1a035;
   margin-bottom: 10px;
   max-width: 400px;
   margin: 0 auto;
@@ -103,7 +103,7 @@
   text-align: center;
 }
 .artcicle-details button {
-  background: #f1356d;
+  background: #f1a035;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -139,10 +139,26 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: green;
   color: #fff;
   border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 15px 20px;
+  border-radius: 20px;
   cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  margin-top: 30px;
+  font-family: Grechen Fuemen , sans-serif;
+  font-size: 30px;
+  color: green;
+
+
+}
+.footer{
+font-size: 20px;
+}
+.form{
+  font-family: 'Courier New', Courier, monospace;
+
 }
