@@ -23,7 +23,7 @@ function ArticalRoutes () {
                         <h2>{ article.title }</h2>
                         <p>By { article.author }</p>
                         <div>{ article.body }</div>
-                        <NavLink to='/'>
+                        <NavLink to='/' className='button'>
                         <button onClick={handleDelete}>Delete</button>
 
                         </NavLink>
